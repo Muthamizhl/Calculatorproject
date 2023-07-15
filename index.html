@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="totalcalc">
+            <p id="display">0</p>
+        <div class="keyboard">
+            <div id="firstrow">
+                <button class="val" onclick='calc("7")'' id="commonbtn">7</button>
+                <button class="val" onclick='calc("8")' id="commonbtn">8</button>
+                <button class="val" onclick='calc("9")' id="commonbtn">9</button>
+                <button class="val" onclick='calc("/")' id="commonbtn">/</button>
+            </div>
+            <div id="secondrow">
+                <button class="val" onclick='calc("4")' id="commonbtn">4</button>
+                <button class="val" onclick='calc("5")' id="commonbtn">5</button>
+                <button class="val" onclick='calc("6")' id="commonbtn">6</button>
+                <button class="val" onclick='calc("")' id="commonbtn"></button>
+            </div>
+            <div id="thirdrow">
+                <button class="val" onclick='calc("1")' id="commonbtn">1</button>
+                <button class="val" onclick='calc("2")' id="commonbtn">2</button>
+                <button class="val" onclick='calc("3")' id="commonbtn">3</button>
+                <button class="val" onclick='calc("-")' id="commonbtn">-</button>
+            </div>
+            <div id="forthrow">
+                <button class="val" onclick='del()' id="commonbtn">&#8592</button>
+                <button class="val" onclick='calc("0")' id="commonbtn">0</button>
+                <button class="val" onclick='calc(".")' id="commonbtn">.</button>
+                <button class="val" onclick='calc("+")'id="commonbtn">+</button>
+            </div>
+            <div id="fifthrow">
+                <button class="val" onclick='cler()' id="cebtn" >CE</button>
+                <button class="val" onclick='evaluation()' id="equalbtn">=</button>
+            </div>
+        </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>

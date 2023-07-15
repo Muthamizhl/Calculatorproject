@@ -1,0 +1,109 @@
+.totalcalc
+{
+    border:2px solid black;
+    height: 13.5cm;
+    width: 14cm;
+    background-color: rgb(212, 201, 201);
+    border-radius: 10px;
+    position: relative;
+    left:11.5cm;
+    top:1cm; 
+}
+#display
+{
+    border:1px solid rgb(0, 0, 0); 
+    height:2cm;
+    width:13cm;
+    background-color:white;
+    border-radius: 5px;
+    position: relative; 
+    left:19px;
+    top:0px;
+    color: black;
+    font-size: xx-large;
+    text-align: right;
+}
+.keyboard
+{
+    border:1px solid black; 
+    height:10cm;
+    width:13cm;
+    background-color:rgb(245, 245, 245);
+    border-radius: 2.5px;
+    position: relative; 
+    left:19px;
+    top:-20px;
+} 
+#firstrow
+{
+    height:1.5cm;
+    width:13cm;
+    position:relative;
+    background-color: whitesmoke;
+    position:relative;
+    top:0.4cm;
+    display:flex;
+    justify-content: space-around;
+}
+#secondrow
+{
+    height:1.5cm;
+    width:13cm;
+    position:relative;
+    background-color: whitesmoke;
+    position:relative;
+    top:0.8cm;
+    display:flex;
+    justify-content: space-around;
+}
+#thirdrow
+{
+    height:1.5cm;
+    width:13cm;
+    position:relative;
+    background-color: whitesmoke;
+    position:relative;
+    top:1.2cm;
+    display:flex;
+    justify-content: space-around;
+}
+#forthrow
+{
+    height:1.5cm;
+    width:13cm;
+    position:relative;
+    background-color:whitesmoke;
+    position:relative;
+    top:1.6cm;
+    display:flex;
+    justify-content: space-around;
+}
+#fifthrow
+{
+    height:1.5cm;
+    width:13cm;
+    position:relative;
+    background-color: whitesmoke;
+    position:relative;
+    top:2cm;
+    display:flex;
+    justify-content: space-around;
+}
+#commonbtn
+{
+   height:1.5cm;
+   width:2cm;
+   border-radius:30%;
+   font-size:25px;
+   border:1px dotted;
+   background-color: blue;
+}
+#cebtn, #equalbtn
+{
+   height:1.5cm;
+   width:5cm;
+   border-radius:5%;
+   font-size:25px;
+   color:black
+   background-color:whitesmoke ;
+}
